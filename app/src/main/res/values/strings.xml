@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">setting</string>
+    <string name="settings">Setting</string>
+    <string name="user_profile">User Profile</string>
+    <string name="user_name">User Name</string>
+    <string name="user_name_summary">Input you name here</string>
+    <string name="update_setting">Update Settings</string>
+    <string name="auto_update">Auto Update</string>
+    <string name="auto_update_summary">Automatically check for update</string>
+    <string name="sync_frequency">Sync Frequency</string>
+    <string name="sync_frequency_summary">Set the sync frequency here</string>
+</resources>

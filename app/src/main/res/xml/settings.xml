@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/user_profile">
+        <EditTextPreference
+            android:key="userName"
+            android:summary="@string/user_name_summary"
+            android:title="@string/user_name" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/update_setting">
+        <CheckBoxPreference
+            android:key="autoUpdate"
+            android:summary="@string/auto_update_summary"
+            android:title="@string/auto_update" />
+
+        <ListPreference
+            android:entries="@array/syncFrequency"
+            android:entryValues="@array/syncFrequencyValues"
+            android:key="syncFrequency"
+            android:summary="@string/sync_frequency_summary"
+            android:title="@string/sync_frequency" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
